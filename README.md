@@ -1,3 +1,12 @@
+# as-sourcekit-bazel-bsp
+
+Ansible Messenger — интеграция SourceKit с Bazel.
+
+> [!NOTE]
+> **Происхождение кода.** Форк [spotify/sourcekit-bazel-bsp](https://github.com/spotify/sourcekit-bazel-bsp), который сопровождает проект Ansible Messenger. Сведения об авторах и лицензиях приведены в исходной документации.
+
+## Документация исходного проекта
+
 # iOS Development (and more) in IDEs like Cursor and agents like Claude Code, for Bazel projects
 
 **sourcekit-bazel-bsp** is a [Build Server Protocol](https://build-server-protocol.github.io/) implementation that serves as a bridge between [sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) (Swift's official [Language Server Protocol](https://microsoft.github.io/language-server-protocol/)) and your Bazel-based code, giving you the power to break free from the IDE side of Xcode and **develop for Apple platforms like iOS in any IDE that has support for LSPs**, such as Cursor, VSCode, Sublime Text, and more. If you've fully migrated away from IDEs in favor of agentic models, **you can also use this to give code intelligence to agents like Claude via their LSP integration.**
